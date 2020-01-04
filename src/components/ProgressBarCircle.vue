@@ -1,6 +1,6 @@
 <template>
   <div id="progress-bar-circle">
-    <div :style="textStyleCircle">
+    <div class="formatUv" :style="textStyleCircle">
       {{ value + '%' }}
     </div>
     <svg
